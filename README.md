@@ -1,8 +1,8 @@
 # lab02-CVDS
 # integrantes 
-
-  Cristian David Silva Perilla
-  Juan Miguel Rojas Chaparro 
+    Cristian David Silva Perilla
+  
+    Juan Miguel Rojas Chaparro 
   
 # OBJETIVOS
     Entender ¿qué es Maven?
