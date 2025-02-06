@@ -77,7 +77,7 @@
   
   ![Logo de mi proyecto](images02/Imagen10.png)
   
-  #Que es gitignore?
+#Que es gitignore?
     
   El archivo .gitignore en un proyecto Git es utilizado para indicar qué archivos o directorios no deben ser rastreados ni versionados por Git. Es una forma de decirle a Git que ignore ciertos archivos que no son relevantes para el repositorio o que contienen datos        sensibles, temporales o generados automáticamente (como archivos de configuración de la IDE, archivos de compilación, logs, etc.).
 
