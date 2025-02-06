@@ -1,6 +1,10 @@
 package edu.eci.cvds.patterns.shapes;
 
+import edu.eci.cvds.patterns.shapes.concrete.Hexagon;
+import edu.eci.cvds.patterns.shapes.concrete.Pentagon;
+import edu.eci.cvds.patterns.shapes.concrete.Quadrilateral;
 import edu.eci.cvds.patterns.shapes.concrete.Triangle;
+
 
 public class ShapeFactory {
 
@@ -11,13 +15,16 @@ public class ShapeFactory {
                 s = new Triangle();
                 break;
             case Quadrilateral:
+                s = new Quadrilateral();
                 break;
             case Pentagon:
+                s = new Pentagon();
                 break;
             case Hexagon:
+                s = new Hexagon();
                 break;
             default:
-                throw new IllegalArgumentException("Tipo de figura desconocido: " + type);
+                throw new IllegalArgumentException("Este es un mensaje de error.");
         }
         return s;
     }
